@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(250, 208, 215)
+}
+footer {
+    margin-top: 130px;
+    border-top: solid thin rgb(221, 160, 221) !important
+ }
+.barra{
+    background-color:violet !important;
+    color:white;
+}
+.letra > li >a {
+    color: white !important;
+
+}
+
+.f-contend {
+    width: 40%;
+    padding:-top;
+    color: black;
+
+}
+
+footer form {
+
+    padding-top: 40px;
+    margin-top: 40px;
+    background-color: rgb(221, 160, 221);
+    
+}
+
+
+    

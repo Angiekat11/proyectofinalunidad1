@@ -1,0 +1,25 @@
+/* estilos para smartphone */
+
+@media screen and (max-width:550px){
+
+.contenedor{
+
+    width: 100%;
+}
+
+nav {
+
+    width: 100px;
+    height: 280px;
+    background-color: pink;
+}
+
+nav ul{
+    padding-top: 10px;
+}
+
+
+
+
+
+}
