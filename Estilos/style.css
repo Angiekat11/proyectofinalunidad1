@@ -1,13 +1,17 @@
+
 body{
     font-family: 'Nunito', sans-serif; /* FUENTE */
     max-width: 900px; /*  Ancho maximo */
     margin: 0 auto; /* margen de 0 y automatica  */
 }
 
+body{
+   background-color:rgb(250, 230, 250)
+}
 nav{
 width: 100%; /* Ancho */
 height: 180px;
-background-color: pink; /* COLOR DE FONDO */
+background-color: rgb(214, 177, 214); /* COLOR DE FONDO */
 
 }
 
@@ -18,7 +22,7 @@ nav ul li {
     padding: 18px 20px;
 }
  nav ul li:hover{ /* cuando este sobre un elemento suceda algo */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.324);
  }
 
  .img-principal {
@@ -33,7 +37,7 @@ display:inline;
 
 nav ul li a{
     text-decoration:  none;
-    color: black; /* color de letra */
+    color: white; /* color de letra */
 
 
 }
@@ -49,7 +53,8 @@ img{
 /* ESTILOS SECCION 1 */
 
 .seccion1{
-    background-color: pink;
+    background-color:rgb(214, 177, 214);
+
 }
 
 .video{
@@ -76,7 +81,7 @@ article{
  }
  .boton{
     text-align: center; /* alinear el texto */
-    background-color: rgb(147, 107, 184);
+    background-color: rgb(214, 177, 214);
     padding: 10px;
  }
 
@@ -87,13 +92,13 @@ article{
  }
 
  .boton:hover{
-    background-color: pink;
+    background-color:rgb(214, 177, 214);
  }
 
  /* articles */
 
  section{
-    background-color: pink; /*  color de fondo */
+    background-color:rgb(214, 177, 214); /*  color de fondo */
     padding: 15px;
     text-align: center;
  }
@@ -113,7 +118,7 @@ article{
  }
 
  footer {
-    background-color: pink;
+    background-color: rgb(223, 149, 219);
     color: white;
     line-height: 30px;
     text-align: center;

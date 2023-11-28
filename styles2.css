@@ -1,12 +1,20 @@
 body{
-    background-color:rgb(250, 208, 215)
+   background-image: url(./Imagenes/fondo.jpg);
+   background-attachment: fixed;
+   
+
+}
+body{
+    font-family: 'Nunito', sans-serif; /* FUENTE */
+    max-width: 900px; /*  Ancho maximo */
+    margin: 0 auto; /* margen de 0 y automatica  */
 }
 footer {
     margin-top: 130px;
-    border-top: solid thin rgb(221, 160, 221) !important
+    border-top: solid thin rgb(214, 177, 214) !important
  }
 .barra{
-    background-color:violet !important;
+    background-color:rgb(214, 177, 214) !important;
     color:white;
 }
 .letra > li >a {
@@ -14,20 +22,50 @@ footer {
 
 }
 
+
 .f-contend {
-    width: 40%;
+    width: 30%;
     padding:-top;
     color: black;
 
+}
+
+.card-text{
+    width: 100%;
+    padding:-top;
+    color: black;
+    background-color: rgb(163, 223, 223);
+
+}
+.cont-art {
+    width: 100%;
+    padding:-top;
+    color: black;
+    background-color: rgb(163, 223, 223);
 }
 
 footer form {
 
     padding-top: 40px;
     margin-top: 40px;
-    background-color: rgb(221, 160, 221);
+    background-color: rgb(182, 117, 182);
     
 }
+
+footer {
+    background-color: rgb(214, 177, 214);
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+ }
+footer div a{
+
+    text-decoration: none;
+    color: white;
+    
+}
+
 
 
     
